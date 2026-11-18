@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Prime UCC Data | Structured Multi-State UCC-1 &amp; UCC-3 Filing Feeds</title>
-<meta name="description" content="Prime UCC Data delivers structured daily and historical US UCC-1 &amp; UCC-3 filing feeds directly from Secretary of State registries for fintech data platforms, MCA funders, equipment lenders, and brokers.">
+<title>Prime UCC Data | Official Multi-State UCC-1 &amp; UCC-3 Feeds &amp; Pricing</title>
+<meta name="description" content="Prime UCC Data delivers official Secretary of State UCC-1 &amp; UCC-3 filing feeds across 20+ expanding US states. Transparent pricing from $0.03/lead, $50/state raw monthly files, and $450/mo all-states daily sync.">
 <link rel="canonical" href="https://primeucc.com/">
 <meta name="robots" content="index, follow">
 <script type="application/ld+json">
@@ -15,20 +15,20 @@
   "url": "https://primeucc.com/",
   "logo": "https://primeucc.com/logo.png",
   "email": "data@primeucc.com",
-  "description": "Structured multi-state US UCC-1 and UCC-3 filing feeds extracted directly from official Secretary of State registries for commercial data platforms, MCA funders, and lenders.",
+  "description": "Direct Secretary of State multi-state US UCC-1 and UCC-3 filing feeds across 20+ expanding jurisdictions with transparent raw and verified contact-enriched pricing.",
   "sameAs": [
     "https://www.linkedin.com/company/primeuccdata"
   ]
 }
 </script>
 <meta property="og:type" content="website">
-<meta property="og:title" content="Prime UCC Data | Structured Multi-State UCC-1 &amp; UCC-3 Filing Feeds">
-<meta property="og:description" content="Direct Secretary of State multi-state UCC-1 &amp; UCC-3 feeds in standardized CSV/Excel schemas. Built for commercial data platforms, MCA funders, and lenders.">
+<meta property="og:title" content="Prime UCC Data | Official Multi-State UCC-1 &amp; UCC-3 Filing Feeds">
+<meta property="og:description" content="Direct Secretary of State UCC-1 &amp; UCC-3 feeds across 20+ expanding US states. Raw files from $50/state, daily all-states sync at $450/mo, and enriched leads from $0.03.">
 <meta property="og:image" content="https://primeucc.com/cover.jpg">
 <meta property="og:url" content="https://primeucc.com/">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Prime UCC Data | Multi-State UCC-1 &amp; UCC-3 Filing Feeds">
-<meta name="twitter:description" content="Direct SOS multi-state UCC filing feeds with standardized debtor, secured party, and officer enrichment.">
+<meta name="twitter:description" content="Direct SOS multi-state UCC filing feeds across 20+ expanding states with transparent pricing and verified contact enrichment.">
 <meta name="twitter:image" content="https://primeucc.com/cover.jpg">
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="apple-touch-icon" href="icon.png">
@@ -75,11 +75,11 @@ header{
 .nav{display:flex;align-items:center;justify-content:space-between;height:74px;gap:20px}
 .brand{display:flex;align-items:center;gap:12px;font-weight:800;font-size:1.05rem;color:var(--navy);letter-spacing:.4px}
 .brand img{width:42px;height:42px;object-fit:contain;border-radius:8px}
-.links{display:flex;gap:28px;align-items:center;font-size:.94rem;font-weight:500;color:var(--ink-soft)}
+.links{display:flex;gap:24px;align-items:center;font-size:.92rem;font-weight:500;color:var(--ink-soft)}
 .links a:hover{color:var(--blue)}
 .btn{
   display:inline-flex;align-items:center;justify-content:center;gap:8px;
-  padding:12px 22px;border-radius:10px;font-weight:600;font-size:.95rem;
+  padding:12px 22px;border-radius:10px;font-weight:600;font-size:.94rem;
   border:none;cursor:pointer;transition:transform .18s ease,box-shadow .18s ease,background .18s ease;
 }
 .btn-primary{
@@ -88,13 +88,22 @@ header{
   box-shadow:0 8px 24px rgba(37,99,235,.26);
 }
 .btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(37,99,235,.34)}
+.btn-dark{
+  background:var(--navy);color:#fff;
+  box-shadow:0 8px 20px rgba(6,20,46,.16);
+}
+.btn-dark:hover{transform:translateY(-2px);background:var(--navy-2)}
+.btn-outline{
+  border:1.5px solid var(--line);background:#fff;color:var(--navy);
+}
+.btn-outline:hover{border-color:var(--blue);color:var(--blue);transform:translateY(-2px)}
 .btn-ghost{
   border:1.5px solid rgba(255,255,255,.32);
   background:rgba(255,255,255,.05);
   color:#fff;
 }
 .btn-ghost:hover{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.55)}
-.links .btn{color:#fff;padding:10px 18px;font-size:.9rem}
+.links .btn{color:#fff;padding:10px 18px;font-size:.88rem}
 
 /* Hero */
 .hero{
@@ -104,7 +113,7 @@ header{
     radial-gradient(700px 420px at 10% 90%,rgba(37,99,235,.22),transparent 60%),
     linear-gradient(155deg,var(--navy) 0%,var(--navy-2) 55%,#0f2e61 100%);
   color:#fff;
-  padding:84px 0 78px;
+  padding:82px 0 76px;
 }
 .hero::before{
   content:"";position:absolute;inset:0;pointer-events:none;
@@ -123,21 +132,21 @@ header{
 }
 .dot{width:8px;height:8px;border-radius:50%;background:var(--teal-light);box-shadow:0 0 10px var(--teal-light)}
 .hero h1{
-  font-size:clamp(2.2rem,4.3vw,3.45rem);
+  font-size:clamp(2.2rem,4.3vw,3.4rem);
   line-height:1.1;font-weight:800;letter-spacing:-.02em;margin-bottom:18px;
 }
 .hero h1 span{
   background:linear-gradient(90deg,#60a5fa,#2dd4bf);
   -webkit-background-clip:text;background-clip:text;color:transparent;
 }
-.hero p.lead{font-size:1.1rem;color:#cbd5e1;max-width:600px;margin-bottom:28px}
+.hero p.lead{font-size:1.08rem;color:#cbd5e1;max-width:600px;margin-bottom:28px}
 .cta{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:34px}
 .metrics{
   display:grid;grid-template-columns:repeat(3,1fr);gap:16px;
-  padding-top:24px;border-top:1px solid var(--line-dark);max-width:560px;
+  padding-top:24px;border-top:1px solid var(--line-dark);max-width:580px;
 }
-.metric strong{display:block;font-size:1.22rem;font-weight:800;color:#fff;line-height:1.25;white-space:nowrap}
-.metric span{font-size:.8rem;color:#94a3b8;font-weight:500}
+.metric strong{display:block;font-size:1.16rem;font-weight:800;color:#fff;line-height:1.25;white-space:nowrap}
+.metric span{font-size:.79rem;color:#94a3b8;font-weight:500}
 
 /* Live Schema Preview Panel */
 .terminal{
@@ -178,15 +187,15 @@ header{
 }
 
 /* Sections */
-section{padding:82px 0}
+section{padding:80px 0}
 .alt{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.head{text-align:center;max-width:740px;margin:0 auto 48px}
+.head{text-align:center;max-width:760px;margin:0 auto 48px}
 .head small{
   display:inline-block;color:var(--blue);font-weight:700;
   font-size:.78rem;letter-spacing:1.6px;text-transform:uppercase;margin-bottom:8px;
 }
 .head h2{font-size:clamp(1.75rem,3vw,2.45rem);color:var(--navy);font-weight:800;letter-spacing:-.015em;margin-bottom:12px}
-.head p{color:var(--muted);font-size:1.02rem}
+.head p{color:var(--muted);font-size:1.01rem}
 
 .grid{display:grid;gap:22px}
 .g2{grid-template-columns:repeat(2,1fr)}
@@ -208,26 +217,88 @@ section{padding:82px 0}
 
 /* Product comparison cards */
 .prod-card{
-  background:var(--card);border:1px solid var(--line);border-radius:18px;padding:34px;
+  background:var(--card);border:1px solid var(--line);border-radius:18px;padding:32px;
   display:flex;flex-direction:column;justify-content:space-between;
 }
 .prod-card.featured{border:2px solid var(--blue);box-shadow:0 18px 42px rgba(37,99,235,.09)}
 .prod-label{
-  display:inline-block;font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;
+  display:inline-block;font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;
   padding:4px 10px;border-radius:6px;margin-bottom:14px;width:fit-content;
 }
 .prod-label.blue{background:rgba(37,99,235,.1);color:var(--blue)}
 .prod-label.teal{background:rgba(14,165,160,.12);color:#0f766e}
-.prod-card h3{font-size:1.35rem;color:var(--navy);margin-bottom:10px;font-weight:800}
-.prod-card .sub{color:var(--muted);margin-bottom:20px;font-size:.96rem}
-.checklist{list-style:none;margin-bottom:26px}
-.checklist li{padding:8px 0;border-bottom:1px solid #f1f5f9;color:var(--ink-soft);font-size:.94rem;display:flex;gap:10px}
+.prod-label.gold{background:rgba(245,158,11,.14);color:#b45309}
+.prod-card h3{font-size:1.3rem;color:var(--navy);margin-bottom:8px;font-weight:800}
+.prod-card .sub{color:var(--muted);margin-bottom:18px;font-size:.95rem}
+.checklist{list-style:none;margin-bottom:24px}
+.checklist li{padding:8px 0;border-bottom:1px solid #f1f5f9;color:var(--ink-soft);font-size:.92rem;display:flex;gap:10px}
 .checklist li:last-child{border:none}
 .checklist li::before{content:"✓";color:var(--teal);font-weight:800;flex-shrink:0}
+
+/* Pricing */
+.price-card{
+  background:var(--card);border:1px solid var(--line);border-radius:18px;padding:30px;
+  display:flex;flex-direction:column;justify-content:space-between;position:relative;
+  transition:transform .2s ease,box-shadow .2s ease;
+}
+.price-card:hover{transform:translateY(-4px);box-shadow:0 20px 42px rgba(6,20,46,.08)}
+.price-card.featured{
+  border:2px solid var(--blue);
+  background:linear-gradient(180deg,#ffffff 0%,#f8fbff 100%);
+  box-shadow:0 22px 48px rgba(37,99,235,.12);
+}
+.pop-badge{
+  position:absolute;top:-13px;right:24px;
+  background:linear-gradient(135deg,var(--blue),var(--teal));
+  color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.9px;text-transform:uppercase;
+  padding:5px 12px;border-radius:999px;box-shadow:0 6px 16px rgba(37,99,235,.28);
+}
+.price-amount{
+  display:flex;align-items:baseline;gap:6px;margin:10px 0 6px;
+}
+.price-amount strong{font-size:2.45rem;font-weight:800;color:var(--navy);letter-spacing:-.03em;line-height:1.1}
+.price-amount span{color:var(--muted);font-size:.92rem;font-weight:600}
+.tier-list{
+  background:#f8fafc;border:1px solid var(--line);border-radius:12px;
+  padding:12px 14px;margin:14px 0 18px;
+}
+.tier-row{
+  display:flex;justify-content:space-between;align-items:center;gap:10px;
+  padding:8px 0;border-bottom:1px dashed #cbd5e1;font-size:.89rem;
+}
+.tier-row:last-child{border-bottom:none}
+.tier-row span{color:var(--ink-soft);font-weight:500}
+.tier-row strong{color:var(--navy);font-family:'JetBrains Mono',monospace;font-size:.95rem;white-space:nowrap}
+.tier-row strong em{font-style:normal;color:var(--muted);font-size:.76rem;font-weight:500}
+
+/* Trust & Provenance Banner */
+.trust-grid{
+  margin-top:28px;
+  display:grid;grid-template-columns:repeat(3,1fr);gap:18px;
+}
+.trust-box{
+  background:var(--navy);color:#e2e8f0;border-radius:14px;padding:22px 24px;
+  border:1px solid rgba(94,234,212,.22);
+}
+.trust-box h4{
+  color:#fff;font-size:.96rem;font-weight:700;margin-bottom:6px;
+  display:flex;align-items:center;gap:8px;
+}
+.trust-box h4 span{color:var(--teal-light)}
+.trust-box p{font-size:.85rem;color:#cbd5e1;line-height:1.55}
 
 /* State Coverage Grid */
 .state-wrap{
   background:var(--card);border:1px solid var(--line);border-radius:18px;padding:32px;
+}
+.state-top{
+  display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;
+  margin-bottom:22px;padding-bottom:18px;border-bottom:1px solid var(--line);
+}
+.state-pill{
+  display:inline-flex;align-items:center;gap:8px;
+  background:#eff6ff;border:1px solid #bfdbfe;color:var(--blue);
+  padding:6px 14px;border-radius:999px;font-size:.83rem;font-weight:700;
 }
 .state-groups{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
 .state-group h4{
@@ -241,11 +312,18 @@ section{padding:82px 0}
   background:#f1f5f9;color:var(--navy);border:1px solid #e2e8f0;
 }
 .chip b{color:var(--blue);font-weight:800}
-.coverage-note{
-  margin-top:24px;padding-top:20px;border-top:1px solid var(--line);
-  display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;
-  font-size:.9rem;color:var(--muted);
+.chip.new-chip{background:#ecfdf5;border-color:#a7f3d0;color:#065f46}
+.chip.new-chip b{color:#059669}
+
+/* Custom State On-Demand Banner */
+.custom-state-box{
+  margin-top:26px;padding:24px 26px;border-radius:14px;
+  background:linear-gradient(135deg,#f0f9ff 0%,#ecfeff 100%);
+  border:1.5px dashed #38bdf8;
+  display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:18px;
 }
+.custom-state-box h4{color:var(--navy);font-size:1.06rem;font-weight:800;margin-bottom:4px}
+.custom-state-box p{color:var(--ink-soft);font-size:.91rem;max-width:660px}
 
 /* Schema Fields */
 .field-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
@@ -271,7 +349,7 @@ section{padding:82px 0}
     radial-gradient(700px 360px at 90% 10%,rgba(14,165,160,.22),transparent 60%),
     linear-gradient(150deg,var(--navy) 0%,var(--navy-2) 60%,#103369 100%);
   color:#fff;border-radius:22px;padding:56px 44px;
-  display:grid;grid-template-columns:.95fr 1.05fr;gap:44px;align-items:start;
+  display:grid;grid-template-columns:.92fr 1.08fr;gap:44px;align-items:start;
 }
 .contact-info h2{font-size:clamp(1.75rem,3vw,2.35rem);font-weight:800;line-height:1.15;margin-bottom:14px}
 .contact-info p{color:#cbd5e1;margin-bottom:24px;font-size:1rem}
@@ -295,7 +373,7 @@ section{padding:82px 0}
 .sform label{display:block;font-size:.8rem;font-weight:600;color:var(--ink-soft);margin-bottom:5px}
 .sform input,.sform select,.sform textarea{
   width:100%;padding:11px 13px;border-radius:9px;
-  border:1px solid #cbd5e1;font:inherit;font-size:.92rem;color:var(--ink);background:#fff;
+  border:1px solid #cbd5e1;font:inherit;font-size:.91rem;color:var(--ink);background:#fff;
 }
 .sform input:focus,.sform select:focus,.sform textarea:focus{
   outline:none;border-color:var(--blue);box-shadow:0 0 0 3px rgba(37,99,235,.12);
@@ -312,8 +390,8 @@ footer{padding:36px 0;color:var(--muted);font-size:.86rem;border-top:1px solid v
 footer a{color:var(--blue);font-weight:500}
 .compliance{margin-top:16px;padding-top:16px;border-top:1px solid #f1f5f9;font-size:.78rem;color:#94a3b8;line-height:1.55}
 
-@media(max-width:960px){
-  .hero-grid,.contact-box,.g2{grid-template-columns:1fr}
+@media(max-width:980px){
+  .hero-grid,.contact-box,.g2,.trust-grid{grid-template-columns:1fr}
   .g4,.state-groups{grid-template-columns:repeat(2,1fr)}
   .g3{grid-template-columns:1fr}
   .links a:not(.btn){display:none}
@@ -334,11 +412,12 @@ footer a{color:var(--blue);font-weight:500}
       <span>PRIME UCC DATA</span>
     </a>
     <nav class="links">
-      <a href="#products">Products</a>
-      <a href="#coverage">State Coverage</a>
-      <a href="#schema">Data Schema</a>
+      <a href="#products">Solutions</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#coverage">States</a>
+      <a href="#schema">Schema</a>
       <a href="#how">Delivery</a>
-      <a href="#contact" class="btn btn-primary">Request Sample</a>
+      <a href="#contact" class="btn btn-primary">Free Sample</a>
     </nav>
   </div>
 </header>
@@ -346,25 +425,25 @@ footer a{color:var(--blue);font-weight:500}
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <span class="pill"><span class="dot"></span>Direct Secretary of State Extraction · Daily &amp; Archive Feeds</span>
-      <h1>Structured Multi-State <span>UCC-1 &amp; UCC-3</span> Filing Data</h1>
-      <p class="lead">Prime UCC Data extracts, normalizes, and delivers fresh Uniform Commercial Code filings directly from official US state registries—engineered for fintech data platforms, MCA funders, equipment lenders, and commercial brokers.</p>
+      <span class="pill"><span class="dot"></span>100% Direct Secretary of State Feeds · Day-by-Day Official Sync</span>
+      <h1>Official Multi-State <span>UCC-1 &amp; UCC-3</span> Filing Feeds</h1>
+      <p class="lead">Prime UCC Data extracts, normalizes, and delivers daily and monthly Uniform Commercial Code records straight from official US Secretary of State registries—synced day-by-day to each state's latest official publication.</p>
       <div class="cta">
-        <a class="btn btn-primary" href="#contact">Request Free Sample</a>
-        <a class="btn btn-ghost" href="#schema">Inspect Schema</a>
+        <a class="btn btn-primary" href="#contact">Request Free 50-Row Sample</a>
+        <a class="btn btn-ghost" href="#pricing">View Transparent Pricing</a>
       </div>
       <div class="metrics">
-        <div class="metric"><strong>17+ States</strong><span>Direct SOS extraction</span></div>
-        <div class="metric"><strong>UCC-1 &amp; UCC-3</strong><span>Initials &amp; amendments</span></div>
-        <div class="metric"><strong>CSV / XLSX</strong><span>CRM &amp; pipeline ready</span></div>
+        <div class="metric"><strong>20+ States</strong><span>&amp; continuously expanding</span></div>
+        <div class="metric"><strong>Daily Official Sync</strong><span>Latest SOS portal updates</span></div>
+        <div class="metric"><strong>From $0.03 / $50</strong><span>Raw &amp; enriched tiers</span></div>
       </div>
     </div>
 
     <div class="terminal" aria-label="Sample UCC feed preview">
       <div class="term-top">
         <div class="term-dots"><i></i><i></i><i></i></div>
-        <span class="mono">primeucc_daily_feed_sample.csv</span>
-        <span>UTF-8 · Normalized</span>
+        <span class="mono">primeucc_daily_sos_feed.csv</span>
+        <span>UTF-8 · Official SOS</span>
       </div>
       <div class="term-body">
         <table class="mini-table mono">
@@ -393,31 +472,31 @@ footer a{color:var(--blue);font-weight:500}
               <td>CSC REPRESENTATIVE</td>
             </tr>
             <tr>
+              <td>WA</td>
+              <td>2026-298-4412</td>
+              <td><span class="badge-type">UCC-1</span></td>
+              <td>PUGET SOUND FREIGHT</td>
+              <td>FIRST CORP SOL</td>
+            </tr>
+            <tr>
               <td>CA</td>
               <td>U26008149210</td>
               <td><span class="badge-type">UCC-1</span></td>
               <td>PACIFIC LOGISTICS</td>
-              <td>FIRST CORP SOL</td>
+              <td>C H T D COMPANY</td>
             </tr>
             <tr>
               <td>CO</td>
               <td>20262094811</td>
-              <td><span class="badge-type">UCC-1</span></td>
-              <td>SUMMIT DENTAL GRP</td>
-              <td>C H T D COMPANY</td>
-            </tr>
-            <tr>
-              <td>OR</td>
-              <td>94518821</td>
               <td><span class="badge-type">UCC-3</span></td>
-              <td>CASCADE FAB INC</td>
+              <td>SUMMIT DENTAL GRP</td>
               <td>DEERE &amp; COMPANY</td>
             </tr>
           </tbody>
         </table>
       </div>
       <div class="term-foot">
-        <span>Fields: Debtor · Full Address · Secured Party · Lapse Date · Officers</span>
+        <span>100% Official SOS Filings · Optional Verified Phone/Email Append</span>
         <span class="mono" style="color:#5eead4">primeucc.com</span>
       </div>
     </div>
@@ -429,52 +508,171 @@ footer a{color:var(--blue);font-weight:500}
     <div class="head">
       <small>Data Solutions</small>
       <h2>Two clean feeds built for how your team actually works</h2>
-      <p>Whether you ingest raw consecutive public-record feeds into an underwriting engine or load daily funding prospects straight into a sales dialer, we deliver clean, deduplicated files.</p>
+      <p>Every UCC filing record is sourced directly from official Secretary of State portals. Choose raw consecutive registry feeds for ingestion or verified contact-enriched leads for immediate sales outreach.</p>
     </div>
     <div class="grid g2">
       <div class="prod-card featured">
         <div>
           <span class="prod-label blue">For Data Platforms &amp; Aggregators</span>
-          <h3>Raw Consecutive UCC-1 &amp; UCC-3 Feeds</h3>
-          <p class="sub">Complete, un-filtered state registry extraction built for KYB platforms, UCC search engines, credit bureaus, and risk analytics teams.</p>
+          <h3>Raw Official UCC-1 &amp; UCC-3 Feeds</h3>
+          <p class="sub">Unfiltered, consecutive state registry extraction synced day-by-day to each Secretary of State's latest official online update—built for KYB platforms, UCC search engines, and underwriting models.</p>
           <ul class="checklist">
-            <li>Consecutive daily &amp; monthly filing coverage (UCC-1 initials + UCC-3 amendments)</li>
+            <li>Day-by-day extraction matched to each state portal's newest published filings</li>
+            <li>100% sourced directly from official US Secretary of State UCC registries</li>
             <li>Full party rows: Debtor name, street address, city, state, ZIP &amp; Secured Party details</li>
-            <li>Filing number, filing date, lapse date, status, and source image links where published</li>
-            <li>Consistent 21-column standardized schema or custom client schema mapping</li>
-            <li>Commercial redistribution &amp; integration licensing available</li>
+            <li>Filing number, filing date, lapse date, status, and source links where published</li>
+            <li>Standardized CSV / Excel schema or custom client column mapping</li>
           </ul>
         </div>
-        <a class="btn btn-primary" href="#contact">Request Raw Consecutive Sample</a>
+        <a class="btn btn-primary" href="#contact" data-plan="All-States Daily Raw Sync ($450/mo — 20+ States)">Request Raw Official Sample</a>
       </div>
 
       <div class="prod-card">
         <div>
           <span class="prod-label teal">For MCA Funders, Lenders &amp; Brokers</span>
-          <h3>Enriched Commercial UCC Leads</h3>
-          <p class="sub">Targeted UCC-1 funding leads filtered by state, filing recency, and lender/representative (CT Corp, CSC, CHTD, equipment lenders).</p>
+          <h3>Contact-Enriched Commercial UCC Leads</h3>
+          <p class="sub">Fresh UCC-1 business leads filtered by state, filing date, and representative (CT Corp, CSC, CHTD, equipment lenders) with optional verified email and phone append.</p>
           <ul class="checklist">
-            <li>Fresh daily or weekly UCC-1 business leads delivered in Excel (.xlsx) &amp; CSV</li>
-            <li>Secretary of State corporate registry matching for verified Officer / Owner names</li>
-            <li>Optional lender/secured-party filtering (CT Corporation, CSC, CHTD, custom lists)</li>
-            <li>Optional skip-traced business &amp; owner phone enrichment add-on</li>
-            <li>Clean formatting ready for direct import into Salesforce, HubSpot, or dialers</li>
+            <li>Official SOS UCC-1 core record paired with verified Officer / Owner matching</li>
+            <li>Transparent enrichment: phone &amp; email appended from verified third-party B2B sources</li>
+            <li>Flexible pay-per-record tiers: Raw ($0.03), Email ($0.05), Phone + Email ($0.08)</li>
+            <li>Custom filtering by secured party, state, industry, or recency window</li>
+            <li>Clean Excel (.xlsx) &amp; CSV formatting ready for direct CRM or dialer import</li>
           </ul>
         </div>
-        <a class="btn btn-primary" href="#contact" style="background:var(--navy)">Request Filtered Lead Sample</a>
+        <a class="btn btn-dark" href="#contact" data-plan="Pay-As-You-Go Leads ($0.03 Raw / $0.05 Email / $0.08 Phone+Email)">Request Enriched Lead Sample</a>
       </div>
     </div>
   </div>
 </section>
 
-<section id="coverage" class="alt">
+<section id="pricing" class="alt">
   <div class="wrap">
     <div class="head">
-      <small>Multi-State Footprint</small>
-      <h2>Direct Secretary of State coverage across key US markets</h2>
-      <p>We extract directly from official state UCC registries and public filings—no recycled third-party lists. Additional states can be scoped and prioritized for ongoing subscribers.</p>
+      <small>Transparent Pricing</small>
+      <h2>Simple, honest pricing built for scale and zero surprises</h2>
+      <p>No hidden broker markups and no annual lock-in. Evaluate a free 50-row real sample before you pay a single dollar.</p>
+    </div>
+
+    <div class="grid g3">
+      <!-- Plan 1: Pay-As-You-Go -->
+      <div class="price-card">
+        <div>
+          <span class="prod-label teal">Pay-As-You-Go · Per Record</span>
+          <h3>Filtered &amp; Enriched Leads</h3>
+          <div class="price-amount"><strong>$0.03</strong><span>– $0.08 / record</span></div>
+          <p class="sub">Ideal for MCA brokers, lenders, and targeted campaigns needing specific date windows or verified contact append.</p>
+          <div class="tier-list">
+            <div class="tier-row">
+              <span>Raw Official UCC Lead <em>(No phone/email)</em></span>
+              <strong>$0.03 <em>/rec</em></strong>
+            </div>
+            <div class="tier-row">
+              <span>UCC Lead + Verified Email Only</span>
+              <strong>$0.05 <em>/rec</em></strong>
+            </div>
+            <div class="tier-row">
+              <span>UCC Lead + Verified Phone &amp; Email</span>
+              <strong>$0.08 <em>/rec</em></strong>
+            </div>
+          </div>
+          <ul class="checklist">
+            <li>Core filing pulled 100% from official state SOS portals</li>
+            <li>Email &amp; phone enriched via verified B2B contact sources</li>
+            <li>Filter by state, secured party (CT Corp, CSC, CHTD), or date</li>
+            <li>$50 minimum order · Volume discounts available</li>
+          </ul>
+        </div>
+        <a class="btn btn-outline" href="#contact" data-plan="Pay-As-You-Go Leads ($0.03 Raw / $0.05 Email / $0.08 Phone+Email)">Request Lead Sample</a>
+      </div>
+
+      <!-- Plan 2: Single-State Monthly Raw -->
+      <div class="price-card">
+        <div>
+          <span class="prod-label blue">Single-State Full File</span>
+          <h3>Full State Monthly Raw</h3>
+          <div class="price-amount"><strong>$50</strong><span>/ state / month</span></div>
+          <p class="sub">Complete raw official filings for any single active state and any calendar month—no per-row charges or caps.</p>
+          <div class="tier-list">
+            <div class="tier-row">
+              <span>Complete Monthly Raw Archive</span>
+              <strong>$50 <em>flat</em></strong>
+            </div>
+            <div class="tier-row">
+              <span>Row Caps or Extra Volume Fees</span>
+              <strong>None <em>(Unlimited)</em></strong>
+            </div>
+          </div>
+          <ul class="checklist">
+            <li>Every raw UCC-1 &amp; UCC-3 record published for that state &amp; month</li>
+            <li>100% official Secretary of State source data (no phone/email)</li>
+            <li>Deduplicated, normalized UTF-8 CSV &amp; Excel (.xlsx) delivery</li>
+            <li>Bulk discounts available for 6–12 month historical backfills</li>
+          </ul>
+        </div>
+        <a class="btn btn-dark" href="#contact" data-plan="Single-State Full Monthly Raw ($50 / state / month)">Order Single-State File</a>
+      </div>
+
+      <!-- Plan 3: All-States Daily Sync (Featured) -->
+      <div class="price-card featured">
+        <span class="pop-badge">Best Value · Save 55%+</span>
+        <div>
+          <span class="prod-label gold">All Active States · Daily + Monthly</span>
+          <h3>All-States Daily Official Sync</h3>
+          <div class="price-amount"><strong>$450</strong><span>/ month</span></div>
+          <p class="sub">Full multi-state raw coverage across 20+ active states (and expanding)—exported day-by-day on each state's latest official update.</p>
+          <div class="tier-list">
+            <div class="tier-row">
+              <span>Daily Incremental Raw Drops (All States)</span>
+              <strong>Included</strong>
+            </div>
+            <div class="tier-row">
+              <span>Consolidated Monthly Rollup (20+ States)</span>
+              <strong>Included</strong>
+            </div>
+          </div>
+          <ul class="checklist">
+            <li>Day-by-day raw export synced to each state's official SOS portal</li>
+            <li>Covers all 20+ active jurisdictions—new states included as added</li>
+            <li>Over 55% savings vs. individual $50/state monthly files</li>
+            <li>Automated daily CSV/XLSX delivery · Cancel anytime, no lock-in</li>
+          </ul>
+        </div>
+        <a class="btn btn-primary" href="#contact" data-plan="All-States Daily Raw Sync ($450/mo — 20+ States)">Start With Free Sample</a>
+      </div>
+    </div>
+
+    <!-- Trust & Source Transparency Guarantees -->
+    <div class="trust-grid">
+      <div class="trust-box">
+        <h4><span>✓</span> 100% Official State SOS Source</h4>
+        <p>Every core UCC filing—filing number, date, lapse date, debtor, secured party, and status—is extracted directly from official Secretary of State portals on each state's latest official update. Never scraped from stale third-party directories.</p>
+      </div>
+      <div class="trust-box">
+        <h4><span>✓</span> Transparent Contact Enrichment</h4>
+        <p>State UCC registries do not publish phone numbers or emails. For our <strong>$0.05</strong> and <strong>$0.08</strong> enriched tiers, contact details are appended separately from verified B2B intelligence &amp; public corporate sources with validation checks.</p>
+      </div>
+      <div class="trust-box">
+        <h4><span>✓</span> Audit Before You Pay</h4>
+        <p>Zero risk and zero long-term contracts. Request a free 50-row real sample from recent filings to verify field completeness, deduplication quality, and state freshness before purchasing any single file or subscription.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="coverage">
+  <div class="wrap">
+    <div class="head">
+      <small>Open &amp; Expanding Footprint</small>
+      <h2>20+ active U.S. jurisdictions—and expanding every month</h2>
+      <p>Our coverage is not locked to a fixed list. We actively maintain 20+ direct Secretary of State pipelines nationwide and continuously onboard new states based on client demand.</p>
     </div>
     <div class="state-wrap">
+      <div class="state-top">
+        <span class="state-pill">● 20+ Active Official SOS Pipelines · Continuously Expanding</span>
+        <span style="font-size:.88rem;color:var(--muted);font-weight:500">Highlighted active markets below — ask for our latest full state sheet</span>
+      </div>
+
       <div class="state-groups">
         <div class="state-group">
           <h4>Northeast &amp; East</h4>
@@ -493,12 +691,14 @@ footer a{color:var(--blue);font-weight:500}
             <span class="chip"><b>OH</b> Ohio</span>
             <span class="chip"><b>WI</b> Wisconsin</span>
             <span class="chip"><b>IN</b> Indiana</span>
+            <span class="chip"><b>+ More</b> Expanding</span>
           </div>
         </div>
         <div class="state-group">
-          <h4>West &amp; Mountain</h4>
+          <h4>West &amp; Pacific</h4>
           <div class="chips">
             <span class="chip"><b>CA</b> California</span>
+            <span class="chip new-chip"><b>WA</b> Washington</span>
             <span class="chip"><b>CO</b> Colorado</span>
             <span class="chip"><b>OR</b> Oregon</span>
             <span class="chip"><b>AZ</b> Arizona</span>
@@ -507,33 +707,39 @@ footer a{color:var(--blue);font-weight:500}
           </div>
         </div>
         <div class="state-group">
-          <h4>South</h4>
+          <h4>South &amp; Custom</h4>
           <div class="chips">
             <span class="chip"><b>AL</b> Alabama</span>
             <span class="chip"><b>MS</b> Mississippi</span>
+            <span class="chip new-chip"><b>+</b> Any Custom State</span>
           </div>
         </div>
       </div>
-      <div class="coverage-note">
-        <span>Need historical 2025–2026 archives, custom date windows, or specific state connectors?</span>
-        <a href="#contact" style="color:var(--blue);font-weight:700">Ask about custom state coverage →</a>
+
+      <!-- Dedicated Custom State On-Demand Request Box -->
+      <div class="custom-state-box">
+        <div>
+          <h4>Need a specific U.S. state extracted exclusively for your team?</h4>
+          <p>Looking for a jurisdiction not listed above or a dedicated custom state pipeline (daily or historical)? Tell us the exact state and date window—we scope and build custom official SOS connectors on request.</p>
+        </div>
+        <a class="btn btn-primary" href="#contact" data-plan="Custom State Extraction Request (Dedicated State)" data-focus-custom="true">Request Custom State Extraction →</a>
       </div>
     </div>
   </div>
 </section>
 
-<section id="schema">
+<section id="schema" class="alt">
   <div class="wrap">
     <div class="head">
       <small>Technical Specification</small>
       <h2>Clean, normalized columns engineered for zero cleanup</h2>
-      <p>Every delivery undergoes automated deduplication, ISO date normalization, state/ZIP parsing, and party-type classification before it leaves our pipeline.</p>
+      <p>Every delivery undergoes automated deduplication, ISO date normalization, state/ZIP parsing, and strict separation between official SOS fields and optional third-party contact enrichment.</p>
     </div>
     <div class="grid g4">
       <div class="card">
         <div class="ico">01</div>
         <h3>Filing Metadata</h3>
-        <p>Core registry identifiers and lifecycle timestamps straight from the state filing index.</p>
+        <p>Core registry identifiers and lifecycle timestamps straight from the state's official filing index.</p>
         <div class="field-list">
           <span class="field-tag">state</span>
           <span class="field-tag">filing_number</span>
@@ -570,13 +776,14 @@ footer a{color:var(--blue);font-weight:500}
       </div>
       <div class="card">
         <div class="ico">04</div>
-        <h3>Optional Enrichment</h3>
-        <p>Matched against active Secretary of State corporate records and contact add-ons.</p>
+        <h3>Verified Enrichment</h3>
+        <p>Optional add-ons ($0.05 / $0.08 tiers) matched via SOS corporate registries &amp; verified B2B sources.</p>
         <div class="field-list">
           <span class="field-tag">officer_first_name</span>
           <span class="field-tag">officer_last_name</span>
           <span class="field-tag">officer_title</span>
-          <span class="field-tag">phone_number</span>
+          <span class="field-tag">verified_email</span>
+          <span class="field-tag">verified_phone</span>
           <span class="field-tag">image_link</span>
         </div>
       </div>
@@ -584,36 +791,36 @@ footer a{color:var(--blue);font-weight:500}
   </div>
 </section>
 
-<section id="how" class="alt">
+<section id="how">
   <div class="wrap">
     <div class="head">
       <small>How It Works</small>
-      <h2>Fast evaluation from sample file to recurring delivery</h2>
+      <h2>Fast evaluation from free sample file to daily official delivery</h2>
     </div>
     <div class="grid g3 steps">
       <div class="card step">
-        <h3>Specify your states &amp; format</h3>
-        <p>Tell us your target states, filing types (UCC-1 / UCC-3), date window, and whether you want raw feeds or officer-enriched leads.</p>
+        <h3>Choose your plan or custom state</h3>
+        <p>Select pay-per-record leads ($0.03–$0.08), a $50 single-state monthly raw file, our $450/mo all-states daily sync, or request a dedicated custom state pull.</p>
       </div>
       <div class="card step">
-        <h3>Audit a free real sample</h3>
-        <p>We send a clean sample file directly from recent filings so your team can verify coverage, schema alignment, and accuracy first.</p>
+        <h3>Audit a free 50-row real sample</h3>
+        <p>We send a live sample straight from recent official Secretary of State filings so your team verifies schema accuracy and freshness before paying anything.</p>
       </div>
       <div class="card step">
-        <h3>Automated ongoing delivery</h3>
-        <p>Receive consistent daily, weekly, or monthly CSV/Excel batches via email or scheduled cloud delivery—no long-term lock-in required.</p>
+        <h3>Day-by-day automated delivery</h3>
+        <p>Receive fresh raw exports synced daily to each state's latest official portal update—delivered cleanly via email or scheduled cloud link in CSV/Excel.</p>
       </div>
     </div>
   </div>
 </section>
 
-<section id="contact">
+<section id="contact" class="alt">
   <div class="wrap">
     <div class="contact-box">
       <div class="contact-info">
-        <span class="pill" style="margin-bottom:14px"><span class="dot"></span>Fast Response · Custom Samples</span>
-        <h2>Ready to evaluate fresh UCC data for your team?</h2>
-        <p>Send us your target states and preferred schema. We typically turn around custom evaluation samples within a few business hours.</p>
+        <span class="pill" style="margin-bottom:14px"><span class="dot"></span>Fast Response · Free 50-Row Sample</span>
+        <h2>Ready to test fresh official UCC data for your team?</h2>
+        <p>Tell us the states, plan, or custom state extraction you need. We typically deliver custom evaluation samples within a few business hours.</p>
 
         <div class="direct-card">
           <small>Direct Data Desk</small>
@@ -621,9 +828,10 @@ footer a{color:var(--blue);font-weight:500}
         </div>
 
         <ul class="direct-meta">
-          <li>• Formats: Excel (.xlsx), UTF-8 CSV, or JSON</li>
-          <li>• Frequency: Daily, weekly, monthly, or historical bulk archives</li>
-          <li>• Custom filters: Secured party, date range, state, officer match</li>
+          <li>• Raw Leads: $0.03/rec · Email: $0.05/rec · Phone + Email: $0.08/rec</li>
+          <li>• Full State Monthly Raw File: $50 / state / month</li>
+          <li>• All-States Daily Official Sync (20+ States): $450 / month</li>
+          <li>• Dedicated custom state extraction scoped on request</li>
         </ul>
 
         <div class="cta" style="margin-top:24px;margin-bottom:0">
@@ -633,9 +841,9 @@ footer a{color:var(--blue);font-weight:500}
       </div>
 
       <form id="sample" class="sform" action="https://formsubmit.co/data@primeucc.com" method="POST">
-        <h3>Request a Free Sample File</h3>
-        <p class="form-sub">Tell us what states and fields you need—no credit card or commitment required.</p>
-        <input type="hidden" name="_subject" value="New Sample Request - primeucc.com">
+        <h3>Request a Free Sample or Custom State Pull</h3>
+        <p class="form-sub">No credit card or commitment required—verify real official SOS records first.</p>
+        <input type="hidden" name="_subject" value="New Sample / Plan Request - primeucc.com">
         <input type="hidden" name="_template" value="table">
         <input type="hidden" name="_next" value="https://primeucc.com/#thanks">
         <input type="text" name="_honey" style="display:none">
@@ -657,28 +865,35 @@ footer a{color:var(--blue);font-weight:500}
             <input id="f-company" name="company" placeholder="Company name">
           </div>
           <div>
-            <label for="f-type">Feed Type</label>
-            <select id="f-type" name="feed_type">
-              <option value="Raw Consecutive UCC-1 / UCC-3 Feed">Raw Consecutive UCC-1 / UCC-3 Feed</option>
-              <option value="Filtered MCA / Lender Leads (CT Corp, CSC, etc.)">Filtered MCA / Lender Leads (CT Corp, CSC, etc.)</option>
-              <option value="Historical Bulk Archive (2025-2026)">Historical Bulk Archive (2025-2026)</option>
-              <option value="Custom State / Schema Request">Custom State / Schema Request</option>
+            <label for="f-type">Selected Plan / Feed Type</label>
+            <select id="f-type" name="plan_or_feed_type">
+              <option value="All-States Daily Raw Sync ($450/mo — 20+ States)">All-States Daily Raw Sync ($450/mo — 20+ States)</option>
+              <option value="Single-State Full Monthly Raw ($50 / state / month)">Single-State Full Monthly Raw ($50 / state / month)</option>
+              <option value="Pay-As-You-Go Leads ($0.03 Raw / $0.05 Email / $0.08 Phone+Email)">Pay-As-You-Go Leads ($0.03 Raw / $0.05 Email / $0.08 Phone+Email)</option>
+              <option value="Custom State Extraction Request (Dedicated State)">Custom State Extraction Request (Dedicated State)</option>
+              <option value="Historical Bulk Archive (6–12 Months)">Historical Bulk Archive (6–12 Months)</option>
             </select>
           </div>
         </div>
 
-        <div class="fgroup">
-          <label for="f-states">Target States</label>
-          <input id="f-states" name="states" placeholder="e.g. NY, FL, CA, CO, OH, OR, WI">
+        <div class="frow">
+          <div>
+            <label for="f-states">Target Active States</label>
+            <input id="f-states" name="target_states" placeholder="e.g. All 20+ States, NY, FL, CA, WA">
+          </div>
+          <div>
+            <label for="f-custom-state">Custom State to Extract (On-Demand)</label>
+            <input id="f-custom-state" name="custom_state_request" placeholder="Any specific state you want pulled">
+          </div>
         </div>
 
         <div class="fgroup">
           <label for="f-msg">Requirements / Notes</label>
-          <textarea id="f-msg" name="message" rows="3" placeholder="Date range, secured party filters, officer enrichment, or preferred file layout..."></textarea>
+          <textarea id="f-msg" name="message" rows="3" placeholder="Date range, raw vs. email/phone enrichment, secured party filters, or custom schema requirements..."></textarea>
         </div>
 
-        <button class="btn btn-primary" type="submit" style="width:100%">Send Sample Request</button>
-        <p id="thanks" class="thx">Request received! We'll send your sample file from data@primeucc.com shortly.</p>
+        <button class="btn btn-primary" type="submit" style="width:100%">Send Free Sample Request</button>
+        <p id="thanks" class="thx">Request received! We'll send your real sample file from data@primeucc.com shortly.</p>
       </form>
     </div>
   </div>
@@ -690,10 +905,24 @@ footer a{color:var(--blue);font-weight:500}
       <div><strong>Prime UCC Data</strong> · <a href="https://primeucc.com">primeucc.com</a> · <a href="mailto:data@primeucc.com">data@primeucc.com</a></div>
       <div>© <span id="y">2026</span> Prime UCC Data. All rights reserved. · <a href="https://www.linkedin.com/company/primeuccdata" target="_blank" rel="noopener">LinkedIn</a></div>
     </div>
-    <p class="compliance">Prime UCC Data aggregates publicly filed commercial Uniform Commercial Code records from official US state registries for B2B commercial analytics, marketing, and business intelligence. Prime UCC Data is not a consumer reporting agency under the Fair Credit Reporting Act (FCRA), and data must not be used for consumer credit, employment, insurance, or tenant eligibility decisions.</p>
+    <p class="compliance">Prime UCC Data extracts publicly filed commercial Uniform Commercial Code records directly from official US Secretary of State registries for B2B commercial analytics, marketing, and business intelligence. Phone numbers and business email addresses are not included in official state UCC records and, when requested, are appended exclusively from verified third-party B2B sources. Prime UCC Data is not a consumer reporting agency under the Fair Credit Reporting Act (FCRA), and data must not be used for consumer credit, employment, insurance, or tenant eligibility decisions.</p>
   </div>
 </footer>
 
-<script>document.getElementById('y').textContent=new Date().getFullYear();</script>
+<script>
+document.getElementById('y').textContent=new Date().getFullYear();
+document.querySelectorAll('[data-plan]').forEach(function(btn){
+  btn.addEventListener('click',function(){
+    var sel=document.getElementById('f-type');
+    if(sel){ sel.value=btn.getAttribute('data-plan'); }
+    if(btn.getAttribute('data-focus-custom')==='true'){
+      setTimeout(function(){
+        var ci=document.getElementById('f-custom-state');
+        if(ci){ ci.focus(); }
+      }, 450);
+    }
+  });
+});
+</script>
 </body>
 </html>
