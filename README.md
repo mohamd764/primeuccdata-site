@@ -1,7 +1,6 @@
-# Prime UCC Data – Website
+# Prime UCC Data — Official Website
 
-Static one-page website for **Prime UCC Data** (https://primeuccdata.online), hosted free on GitHub Pages.
+Live site: [https://primeucc.com](https://primeucc.com)  
+Business Contact: `data@primeucc.com`
 
-Fresh daily UCC filing leads for MCA funders, lenders and brokers.
-
-Contact: mohamed@primeuccdata.online · [LinkedIn](https://www.linkedin.com/company/primeuccdata)
+Direct Secretary of State multi-state UCC-1 and UCC-3 filing feeds for commercial data platforms, MCA funders, equipment lenders, and brokers.
