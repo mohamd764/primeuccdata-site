@@ -845,6 +845,7 @@ footer a{color:var(--blue);font-weight:500}
         <p class="form-sub">No credit card or commitment required—verify real official SOS records first.</p>
         <input type="hidden" name="_subject" value="New Sample / Plan Request - primeucc.com">
         <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_next" value="https://primeucc.com/#thanks">
         <input type="text" name="_honey" style="display:none">
 
@@ -923,6 +924,32 @@ document.querySelectorAll('[data-plan]').forEach(function(btn){
     }
   });
 });
+(function(){
+  var form=document.getElementById('sample');
+  if(!form || !window.fetch) return;
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var btn=form.querySelector('button[type="submit"]');
+    var thx=document.getElementById('thanks');
+    var orig=btn.textContent;
+    btn.disabled=true;
+    btn.textContent='Sending request...';
+    fetch('https://formsubmit.co/ajax/data@primeucc.com',{
+      method:'POST',
+      headers:{'Accept':'application/json'},
+      body:new FormData(form)
+    }).then(function(r){ return r.json(); }).then(function(res){
+      if(res && (res.success==='true' || res.success===true)){
+        form.reset();
+        thx.style.display='block';
+        btn.textContent='Request Sent ✓';
+        setTimeout(function(){ btn.disabled=false; btn.textContent=orig; }, 4000);
+      } else {
+        form.submit();
+      }
+    }).catch(function(){ form.submit(); });
+  });
+})();
 </script>
 </body>
 </html>
